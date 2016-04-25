@@ -1,0 +1,27 @@
+{
+  "name": "should-of-twitter-bot",
+  "version": "1.0.0",
+  "description": "A grammar-correcting Twitter bot",
+  "main": "bot.js",
+  "dependencies": {
+    "twit": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psocha/ShouldOfTwitterBot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "psocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psocha/ShouldOfTwitterBot/issues"
+  },
+  "homepage": "https://github.com/psocha/ShouldOfTwitterBot#readme"
+}
