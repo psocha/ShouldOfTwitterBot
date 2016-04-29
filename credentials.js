@@ -1,6 +1,6 @@
 exports.credentials = {
-  'consumer_secret':     'NONE_OF_YOUR_BUSINESS',
-  'consumer_key':        'NONE_OF_YOUR_BUSINESS',
-  'access_token':        'NONE_OF_YOUR_BUSINESS',
-  'access_token_secret': 'NONE_OF_YOUR_BUSINESS'
+  'consumer_secret':     process.env.CONSUMER_SECRET,
+  'consumer_key':        process.env.CONSUMER_KEY,
+  'access_token':        process.env.ACCESS_TOKEN,
+  'access_token_secret': process.env.ACCESS_TOKEN_SECRET
 };
